@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Serwis - HTML i CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Serwis elektroniki</h1>
+  </header>
+
+  <section id="title">
+    <nav>
+      <ul>
+        <li><a href="#">Strona główna</a></li>
+        <li><a href="#">Produkty</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <div class="naglowek">
+    <h2 class="h2-size">Witaj na stronie serwisu sprzętu RTV AGD</h2>
+    <p class="p-size">Podaj specyfikację przedmiotu i opisz problem, a my postaramy się pomóc</p>
+  </div>
+
+  <main>
+    <div class="zgloszenie">
+      <form>
+        <h2 class="h2-size">Zgłoś swój sprzęt</h2>
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Wyślij</button>
+      </form>
+    </div>
+  </main>
+
+  <section id="photos">
+    <div>
+      <img class="photos_size" src="https://plik24.pl/wp-content/uploads/2015/11/do-pliku.jpg" alt="Wnętrze komputera">
+      <img class="photos_size"
+        src="https://st2.depositphotos.com/1001759/6616/i/600/depositphotos_66166871-stock-photo-graphics-card.jpg"
+        alt="karta graficzna">
+    </div>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2023 Sklep Internetowy</p>
+  </div>
+
+</body>
+
+</html>
